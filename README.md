@@ -16,7 +16,7 @@ This project was created using wxLua and wxFormBuilder.
 
 ##GUI Application 
 
-![Server Analysis](https://github.com/isaacclifford/ServerAnalysis/img/serverAnalysis_Demo.JPG "GUI")
+![Server Analysis](https://github.com/isaacclifford/ServerAnalysis/blob/master/img/serverAnalysis_Demo.JPG "GUI")
 
 
 
