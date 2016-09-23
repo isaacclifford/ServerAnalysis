@@ -14,7 +14,9 @@ This project was created using wxLua and wxFormBuilder.
 * Live feed commentary of socket state
 
 
+##GUI Application 
 
+![Server Analysis](https://github.com/isaacclifford/ServerAnalysis/img/serverAnalysis_Demo.JPG "GUI")
 
 
 
