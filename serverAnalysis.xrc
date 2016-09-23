@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<resource xmlns="http://www.wxwindows.org/wxxrc" version="2.3.0.1">
+	<object class="wxDialog" name="dialog">
+		<style>wxDEFAULT_DIALOG_STYLE|wxMAXIMIZE_BOX|wxMINIMIZE_BOX|wxRESIZE_BORDER</style>
+		<size>662,653</size>
+		<bg>#000000</bg>
+		<title>SERVER RACE</title>
+		<centered>1</centered>
+		<object class="wxBoxSizer">
+			<orient>wxVERTICAL</orient>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>5</border>
+				<object class="wxPanel" name="m_panel1">
+					<style>wxTAB_TRAVERSAL</style>
+					<bg>#004080</bg>
+					<fg>#ffffff</fg>
+					<object class="wxBoxSizer">
+						<orient>wxVERTICAL</orient>
+						<object class="sizeritem">
+							<option>0</option>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL</flag>
+							<border>5</border>
+							<object class="wxStaticText" name="m_staticText7">
+								<font>
+									<size>14</size>
+									<family>decorative</family>
+									<style>normal</style>
+									<weight>normal</weight>
+									<underlined>0</underlined>
+									<face>Stencil</face>
+								</font>
+								<label>SET-UP</label>
+								<wrap>-1</wrap>
+							</object>
+						</object>
+						<object class="sizeritem">
+							<option>1</option>
+							<flag>wxEXPAND</flag>
+							<border>5</border>
+							<object class="wxBoxSizer">
+								<orient>wxHORIZONTAL</orient>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALL</flag>
+									<border>5</border>
+									<object class="wxStaticText" name="m_staticText2">
+										<font>
+											<size>10</size>
+											<family>decorative</family>
+											<style>normal</style>
+											<weight>normal</weight>
+											<underlined>0</underlined>
+											<face>Stencil</face>
+										</font>
+										<label>URL 1: </label>
+										<wrap>-1</wrap>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALL</flag>
+									<border>5</border>
+									<object class="wxTextCtrl" name="url1">
+										<size>400,-1</size>
+										<bg>#ffffe1</bg>
+										<fg>#000000</fg>
+										<value>www.orbcomm.com</value>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALL</flag>
+									<border>5</border>
+									<object class="wxStaticText" name="urlStatus1">
+										<font>
+											<size>10</size>
+											<family>decorative</family>
+											<style>normal</style>
+											<weight>normal</weight>
+											<underlined>0</underlined>
+											<face>Stencil</face>
+										</font>
+										<label>IDLE</label>
+										<wrap>-1</wrap>
+									</object>
+								</object>
+							</object>
+						</object>
+						<object class="sizeritem">
+							<option>1</option>
+							<flag>wxEXPAND</flag>
+							<border>5</border>
+							<object class="wxBoxSizer">
+								<orient>wxHORIZONTAL</orient>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALL</flag>
+									<border>5</border>
+									<object class="wxStaticText" name="m_staticText21">
+										<font>
+											<size>10</size>
+											<family>decorative</family>
+											<style>normal</style>
+											<weight>normal</weight>
+											<underlined>0</underlined>
+											<face>Stencil</face>
+										</font>
+										<label>URL 2: </label>
+										<wrap>-1</wrap>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALL</flag>
+									<border>5</border>
+									<object class="wxTextCtrl" name="url2">
+										<size>400,-1</size>
+										<bg>#ffffe1</bg>
+										<value>www.orbcomm.com</value>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALL</flag>
+									<border>5</border>
+									<object class="wxStaticText" name="urlStatus2">
+										<font>
+											<size>10</size>
+											<family>decorative</family>
+											<style>normal</style>
+											<weight>normal</weight>
+											<underlined>0</underlined>
+											<face>Stencil</face>
+										</font>
+										<label>IDLE</label>
+										<wrap>-1</wrap>
+									</object>
+								</object>
+							</object>
+						</object>
+						<object class="sizeritem">
+							<option>1</option>
+							<flag>wxEXPAND</flag>
+							<border>5</border>
+							<object class="wxBoxSizer">
+								<orient>wxHORIZONTAL</orient>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALL</flag>
+									<border>5</border>
+									<object class="wxStaticText" name="m_staticText22">
+										<font>
+											<size>10</size>
+											<family>decorative</family>
+											<style>normal</style>
+											<weight>normal</weight>
+											<underlined>0</underlined>
+											<face>Stencil</face>
+										</font>
+										<label>URL 3: </label>
+										<wrap>-1</wrap>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxALL</flag>
+									<border>5</border>
+									<object class="wxTextCtrl" name="url3">
+										<size>400,-1</size>
+										<bg>#ffffe1</bg>
+										<value>www.orbcomm.com</value>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALL</flag>
+									<border>5</border>
+									<object class="wxStaticText" name="urlStatus3">
+										<font>
+											<size>10</size>
+											<family>decorative</family>
+											<style>normal</style>
+											<weight>normal</weight>
+											<underlined>0</underlined>
+											<face>Stencil</face>
+										</font>
+										<label>IDLE</label>
+										<wrap>-1</wrap>
+									</object>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxEXPAND</flag>
+				<border>5</border>
+				<object class="wxPanel" name="m_panel2">
+					<style>wxTAB_TRAVERSAL</style>
+					<bg>#004080</bg>
+					<fg>#ffffff</fg>
+					<object class="wxBoxSizer">
+						<orient>wxVERTICAL</orient>
+						<object class="sizeritem">
+							<option>0</option>
+							<flag>wxALIGN_CENTER_HORIZONTAL|wxTOP|wxRIGHT|wxLEFT</flag>
+							<border>5</border>
+							<object class="wxStaticText" name="m_staticText8">
+								<font>
+									<size>14</size>
+									<family>decorative</family>
+									<style>normal</style>
+									<weight>normal</weight>
+									<underlined>0</underlined>
+									<face>Stencil</face>
+								</font>
+								<label>STATS :</label>
+								<wrap>-1</wrap>
+							</object>
+						</object>
+						<object class="sizeritem">
+							<option>1</option>
+							<flag>wxEXPAND | wxALL</flag>
+							<border>5</border>
+							<object class="wxPanel" name="m_panel8">
+								<style>wxTAB_TRAVERSAL</style>
+								<object class="wxBoxSizer">
+									<orient>wxVERTICAL</orient>
+									<object class="sizeritem">
+										<option>1</option>
+										<flag>wxEXPAND</flag>
+										<border>5</border>
+										<object class="wxBoxSizer">
+											<orient>wxHORIZONTAL</orient>
+											<object class="sizeritem">
+												<option>1</option>
+												<flag>wxEXPAND|wxBOTTOM</flag>
+												<border>5</border>
+												<object class="wxPanel" name="m_panel9">
+													<style>wxTAB_TRAVERSAL</style>
+													<bg>#000040</bg>
+													<fg>#f0f0f0</fg>
+													<object class="wxBoxSizer">
+														<orient>wxVERTICAL</orient>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag>wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+															<border>5</border>
+															<object class="wxTextCtrl" name="serverPlace1">
+																<style>wxTE_CENTRE|wxTE_READONLY</style>
+																<bg>#000040</bg>
+																<fg>#ffffff</fg>
+																<font>
+																	<size>10</size>
+																	<family>decorative</family>
+																	<style>normal</style>
+																	<weight>normal</weight>
+																	<underlined>0</underlined>
+																	<face>Stencil</face>
+																</font>
+																<value>SERVER 1</value>
+															</object>
+														</object>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag>wxALIGN_CENTER_HORIZONTAL</flag>
+															<border>5</border>
+															<object class="wxBoxSizer">
+																<orient>wxHORIZONTAL</orient>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL</flag>
+																	<border>5</border>
+																	<object class="wxStaticText" name="m_staticText9">
+																		<font>
+																			<size>10</size>
+																			<family>decorative</family>
+																			<style>normal</style>
+																			<weight>normal</weight>
+																			<underlined>0</underlined>
+																			<face>Stencil</face>
+																		</font>
+																		<label>Requests</label>
+																		<wrap>-1</wrap>
+																	</object>
+																</object>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL</flag>
+																	<border>5</border>
+																	<object class="wxTextCtrl" name="request1">
+																		<bg>#ffffe1</bg>
+																		<value></value>
+																	</object>
+																</object>
+															</object>
+														</object>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag>wxALIGN_CENTER_HORIZONTAL</flag>
+															<border>5</border>
+															<object class="wxBoxSizer">
+																<orient>wxHORIZONTAL</orient>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL</flag>
+																	<border>5</border>
+																	<object class="wxStaticText" name="m_staticText10">
+																		<font>
+																			<size>10</size>
+																			<family>decorative</family>
+																			<style>normal</style>
+																			<weight>normal</weight>
+																			<underlined>0</underlined>
+																			<face>Stencil</face>
+																		</font>
+																		<label>Fails          </label>
+																		<wrap>-1</wrap>
+																	</object>
+																</object>
+																<object class="spacer">
+																	<option>1</option>
+																	<flag>wxEXPAND</flag>
+																	<border>5</border>
+																	<size>0,0</size>
+																</object>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL</flag>
+																	<border>5</border>
+																	<object class="wxTextCtrl" name="fails1">
+																		<bg>#ffffe1</bg>
+																		<value></value>
+																	</object>
+																</object>
+															</object>
+														</object>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag>wxALIGN_CENTER_HORIZONTAL</flag>
+															<border>5</border>
+															<object class="wxBoxSizer">
+																<orient>wxHORIZONTAL</orient>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL</flag>
+																	<border>5</border>
+																	<object class="wxStaticText" name="m_staticText11">
+																		<font>
+																			<size>10</size>
+																			<family>decorative</family>
+																			<style>normal</style>
+																			<weight>normal</weight>
+																			<underlined>0</underlined>
+																			<face>Stencil</face>
+																		</font>
+																		<label>Average  </label>
+																		<wrap>-1</wrap>
+																	</object>
+																</object>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL</flag>
+																	<border>5</border>
+																	<object class="wxTextCtrl" name="average1">
+																		<bg>#ffffe1</bg>
+																		<value></value>
+																	</object>
+																</object>
+															</object>
+														</object>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag>wxALIGN_CENTER_HORIZONTAL</flag>
+															<border>5</border>
+															<object class="wxBoxSizer">
+																<orient>wxHORIZONTAL</orient>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL</flag>
+																	<border>5</border>
+																	<object class="wxStaticText" name="m_staticText12">
+																		<font>
+																			<size>10</size>
+																			<family>decorative</family>
+																			<style>normal</style>
+																			<weight>normal</weight>
+																			<underlined>0</underlined>
+																			<face>Stencil</face>
+																		</font>
+																		<label>Longest   </label>
+																		<wrap>-1</wrap>
+																	</object>
+																</object>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL</flag>
+																	<border>5</border>
+																	<object class="wxTextCtrl" name="longest1">
+																		<bg>#ffffe1</bg>
+																		<value></value>
+																	</object>
+																</object>
+															</object>
+														</object>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag>wxALIGN_CENTER_HORIZONTAL</flag>
+															<border>5</border>
+															<object class="wxBoxSizer">
+																<orient>wxHORIZONTAL</orient>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL</flag>
+																	<border>5</border>
+																	<object class="wxStaticText" name="m_staticText13">
+																		<font>
+																			<size>10</size>
+																			<family>decorative</family>
+																			<style>normal</style>
+																			<weight>normal</weight>
+																			<underlined>0</underlined>
+																			<face>Stencil</face>
+																		</font>
+																		<label>Shortest</label>
+																		<wrap>-1</wrap>
+																	</object>
+																</object>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL</flag>
+																	<border>5</border>
+																	<object class="wxTextCtrl" name="shortest1">
+																		<bg>#ffffe1</bg>
+																		<value></value>
+																	</object>
+																</object>
+															</object>
+														</object>
+													</object>
+												</object>
+											</object>
+											<object class="sizeritem">
+												<option>1</option>
+												<flag>wxEXPAND|wxBOTTOM|wxRIGHT|wxLEFT</flag>
+												<border>5</border>
+												<object class="wxPanel" name="m_panel91">
+													<style>wxTAB_TRAVERSAL</style>
+													<bg>#000040</bg>
+													<fg>#f0f0f0</fg>
+													<object class="wxBoxSizer">
+														<orient>wxVERTICAL</orient>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL</flag>
+															<border>5</border>
+															<object class="wxTextCtrl" name="serverPlace2">
+																<style>wxTE_CENTRE|wxTE_READONLY</style>
+																<bg>#000040</bg>
+																<fg>#f0f0f0</fg>
+																<font>
+																	<size>10</size>
+																	<family>decorative</family>
+																	<style>normal</style>
+																	<weight>normal</weight>
+																	<underlined>0</underlined>
+																	<face>Stencil</face>
+																</font>
+																<value>SERVER 2</value>
+															</object>
+														</object>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag>wxALIGN_CENTER_HORIZONTAL</flag>
+															<border>5</border>
+															<object class="wxBoxSizer">
+																<orient>wxHORIZONTAL</orient>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL</flag>
+																	<border>5</border>
+																	<object class="wxStaticText" name="m_staticText91">
+																		<font>
+																			<size>10</size>
+																			<family>decorative</family>
+																			<style>normal</style>
+																			<weight>normal</weight>
+																			<underlined>0</underlined>
+																			<face>Stencil</face>
+																		</font>
+																		<label>Requests</label>
+																		<wrap>-1</wrap>
+																	</object>
+																</object>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL</flag>
+																	<border>5</border>
+																	<object class="wxTextCtrl" name="request2">
+																		<bg>#ffffe1</bg>
+																		<value></value>
+																	</object>
+																</object>
+															</object>
+														</object>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag>wxALIGN_CENTER_HORIZONTAL</flag>
+															<border>5</border>
+															<object class="wxBoxSizer">
+																<orient>wxHORIZONTAL</orient>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL</flag>
+																	<border>5</border>
+																	<object class="wxStaticText" name="m_staticText101">
+																		<font>
+																			<size>10</size>
+																			<family>decorative</family>
+																			<style>normal</style>
+																			<weight>normal</weight>
+																			<underlined>0</underlined>
+																			<face>Stencil</face>
+																		</font>
+																		<label>Fails          </label>
+																		<wrap>-1</wrap>
+																	</object>
+																</object>
+																<object class="spacer">
+																	<option>1</option>
+																	<flag>wxEXPAND</flag>
+																	<border>5</border>
+																	<size>0,0</size>
+																</object>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL</flag>
+																	<border>5</border>
+																	<object class="wxTextCtrl" name="fails2">
+																		<bg>#ffffe1</bg>
+																		<value></value>
+																	</object>
+																</object>
+															</object>
+														</object>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag>wxALIGN_CENTER_HORIZONTAL</flag>
+															<border>5</border>
+															<object class="wxBoxSizer">
+																<orient>wxHORIZONTAL</orient>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL</flag>
+																	<border>5</border>
+																	<object class="wxStaticText" name="m_staticText111">
+																		<font>
+																			<size>10</size>
+																			<family>decorative</family>
+																			<style>normal</style>
+																			<weight>normal</weight>
+																			<underlined>0</underlined>
+																			<face>Stencil</face>
+																		</font>
+																		<label>Average  </label>
+																		<wrap>-1</wrap>
+																	</object>
+																</object>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL</flag>
+																	<border>5</border>
+																	<object class="wxTextCtrl" name="average2">
+																		<bg>#ffffe1</bg>
+																		<value></value>
+																	</object>
+																</object>
+															</object>
+														</object>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag>wxALIGN_CENTER_HORIZONTAL</flag>
+															<border>5</border>
+															<object class="wxBoxSizer">
+																<orient>wxHORIZONTAL</orient>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL</flag>
+																	<border>5</border>
+																	<object class="wxStaticText" name="m_staticText121">
+																		<font>
+																			<size>10</size>
+																			<family>decorative</family>
+																			<style>normal</style>
+																			<weight>normal</weight>
+																			<underlined>0</underlined>
+																			<face>Stencil</face>
+																		</font>
+																		<label>Longest   </label>
+																		<wrap>-1</wrap>
+																	</object>
+																</object>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL</flag>
+																	<border>5</border>
+																	<object class="wxTextCtrl" name="longest2">
+																		<bg>#ffffe1</bg>
+																		<value></value>
+																	</object>
+																</object>
+															</object>
+														</object>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag>wxALIGN_CENTER_HORIZONTAL</flag>
+															<border>5</border>
+															<object class="wxBoxSizer">
+																<orient>wxHORIZONTAL</orient>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL</flag>
+																	<border>5</border>
+																	<object class="wxStaticText" name="m_staticText131">
+																		<font>
+																			<size>10</size>
+																			<family>decorative</family>
+																			<style>normal</style>
+																			<weight>normal</weight>
+																			<underlined>0</underlined>
+																			<face>Stencil</face>
+																		</font>
+																		<label>Shortest</label>
+																		<wrap>-1</wrap>
+																	</object>
+																</object>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL</flag>
+																	<border>5</border>
+																	<object class="wxTextCtrl" name="shortest2">
+																		<bg>#ffffe1</bg>
+																		<value></value>
+																	</object>
+																</object>
+															</object>
+														</object>
+													</object>
+												</object>
+											</object>
+											<object class="sizeritem">
+												<option>1</option>
+												<flag>wxEXPAND|wxBOTTOM|wxRIGHT|wxLEFT</flag>
+												<border>5</border>
+												<object class="wxPanel" name="m_panel92">
+													<style>wxTAB_TRAVERSAL</style>
+													<bg>#000040</bg>
+													<fg>#f0f0f0</fg>
+													<object class="wxBoxSizer">
+														<orient>wxVERTICAL</orient>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag>wxALL|wxEXPAND</flag>
+															<border>5</border>
+															<object class="wxTextCtrl" name="serverPlace3">
+																<style>wxTE_CENTRE|wxTE_READONLY</style>
+																<bg>#000040</bg>
+																<fg>#f0f0f0</fg>
+																<font>
+																	<size>10</size>
+																	<family>decorative</family>
+																	<style>normal</style>
+																	<weight>normal</weight>
+																	<underlined>0</underlined>
+																	<face>Stencil</face>
+																</font>
+																<value>SERVER 3</value>
+															</object>
+														</object>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag>wxALIGN_CENTER_HORIZONTAL</flag>
+															<border>5</border>
+															<object class="wxBoxSizer">
+																<orient>wxHORIZONTAL</orient>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL</flag>
+																	<border>5</border>
+																	<object class="wxStaticText" name="m_staticText92">
+																		<font>
+																			<size>10</size>
+																			<family>decorative</family>
+																			<style>normal</style>
+																			<weight>normal</weight>
+																			<underlined>0</underlined>
+																			<face>Stencil</face>
+																		</font>
+																		<label>Requests</label>
+																		<wrap>-1</wrap>
+																	</object>
+																</object>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL</flag>
+																	<border>5</border>
+																	<object class="wxTextCtrl" name="request3">
+																		<bg>#ffffe1</bg>
+																		<value></value>
+																	</object>
+																</object>
+															</object>
+														</object>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag>wxALIGN_CENTER_HORIZONTAL</flag>
+															<border>5</border>
+															<object class="wxBoxSizer">
+																<orient>wxHORIZONTAL</orient>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL</flag>
+																	<border>5</border>
+																	<object class="wxStaticText" name="m_staticText102">
+																		<font>
+																			<size>10</size>
+																			<family>decorative</family>
+																			<style>normal</style>
+																			<weight>normal</weight>
+																			<underlined>0</underlined>
+																			<face>Stencil</face>
+																		</font>
+																		<label>Fails          </label>
+																		<wrap>-1</wrap>
+																	</object>
+																</object>
+																<object class="spacer">
+																	<option>1</option>
+																	<flag>wxEXPAND</flag>
+																	<border>5</border>
+																	<size>0,0</size>
+																</object>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL</flag>
+																	<border>5</border>
+																	<object class="wxTextCtrl" name="fails3">
+																		<bg>#ffffe1</bg>
+																		<value></value>
+																	</object>
+																</object>
+															</object>
+														</object>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag>wxALIGN_CENTER_HORIZONTAL</flag>
+															<border>5</border>
+															<object class="wxBoxSizer">
+																<orient>wxHORIZONTAL</orient>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL</flag>
+																	<border>5</border>
+																	<object class="wxStaticText" name="m_staticText112">
+																		<font>
+																			<size>10</size>
+																			<family>decorative</family>
+																			<style>normal</style>
+																			<weight>normal</weight>
+																			<underlined>0</underlined>
+																			<face>Stencil</face>
+																		</font>
+																		<label>Average  </label>
+																		<wrap>-1</wrap>
+																	</object>
+																</object>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL</flag>
+																	<border>5</border>
+																	<object class="wxTextCtrl" name="average3">
+																		<bg>#ffffe1</bg>
+																		<value></value>
+																	</object>
+																</object>
+															</object>
+														</object>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag>wxALIGN_CENTER_HORIZONTAL</flag>
+															<border>5</border>
+															<object class="wxBoxSizer">
+																<orient>wxHORIZONTAL</orient>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL</flag>
+																	<border>5</border>
+																	<object class="wxStaticText" name="m_staticText122">
+																		<font>
+																			<size>10</size>
+																			<family>decorative</family>
+																			<style>normal</style>
+																			<weight>normal</weight>
+																			<underlined>0</underlined>
+																			<face>Stencil</face>
+																		</font>
+																		<label>Longest   </label>
+																		<wrap>-1</wrap>
+																	</object>
+																</object>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL</flag>
+																	<border>5</border>
+																	<object class="wxTextCtrl" name="longest3">
+																		<bg>#ffffe1</bg>
+																		<value></value>
+																	</object>
+																</object>
+															</object>
+														</object>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag>wxALIGN_CENTER_HORIZONTAL</flag>
+															<border>5</border>
+															<object class="wxBoxSizer">
+																<orient>wxHORIZONTAL</orient>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL</flag>
+																	<border>5</border>
+																	<object class="wxStaticText" name="m_staticText132">
+																		<font>
+																			<size>10</size>
+																			<family>decorative</family>
+																			<style>normal</style>
+																			<weight>normal</weight>
+																			<underlined>0</underlined>
+																			<face>Stencil</face>
+																		</font>
+																		<label>Shortest</label>
+																		<wrap>-1</wrap>
+																	</object>
+																</object>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL</flag>
+																	<border>5</border>
+																	<object class="wxTextCtrl" name="shortest3">
+																		<bg>#ffffe1</bg>
+																		<value></value>
+																	</object>
+																</object>
+															</object>
+														</object>
+													</object>
+												</object>
+											</object>
+										</object>
+									</object>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>1</option>
+				<flag>wxEXPAND | wxALL</flag>
+				<border>5</border>
+				<object class="wxPanel" name="m_panel3">
+					<style>wxTAB_TRAVERSAL</style>
+					<bg>#004080</bg>
+					<object class="wxBoxSizer">
+						<orient>wxVERTICAL</orient>
+						<object class="sizeritem">
+							<option>0</option>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL</flag>
+							<border>5</border>
+							<object class="wxStaticText" name="m_staticText33">
+								<fg>#f0f0f0</fg>
+								<font>
+									<size>14</size>
+									<family>decorative</family>
+									<style>normal</style>
+									<weight>normal</weight>
+									<underlined>0</underlined>
+									<face>Stencil</face>
+								</font>
+								<label>COMMENTARY</label>
+								<wrap>-1</wrap>
+							</object>
+						</object>
+						<object class="sizeritem">
+							<option>1</option>
+							<flag>wxALL|wxEXPAND</flag>
+							<border>5</border>
+							<object class="wxTextCtrl" name="logBox">
+								<style>wxTE_CHARWRAP|wxTE_MULTILINE|wxTE_READONLY</style>
+								<bg>#ffffe1</bg>
+								<font>
+									<size>11</size>
+									<family>roman</family>
+									<style>normal</style>
+									<weight>bold</weight>
+									<underlined>0</underlined>
+									<face>Baskerville Old Face</face>
+								</font>
+								<value></value>
+							</object>
+						</object>
+						<object class="sizeritem">
+							<option>0</option>
+							<flag>wxRIGHT|wxLEFT</flag>
+							<border>5</border>
+							<object class="wxButton" name="clearLogBut">
+								<font>
+									<size>10</size>
+									<family>decorative</family>
+									<style>normal</style>
+									<weight>normal</weight>
+									<underlined>0</underlined>
+									<face>Stencil</face>
+								</font>
+								<label>Clear</label>
+								<default>0</default>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALIGN_RIGHT</flag>
+				<border>5</border>
+				<object class="wxBoxSizer">
+					<orient>wxHORIZONTAL</orient>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxButton" name="stopBut">
+							<font>
+								<size>10</size>
+								<family>decorative</family>
+								<style>normal</style>
+								<weight>normal</weight>
+								<underlined>0</underlined>
+								<face>Stencil</face>
+							</font>
+							<label>STOP</label>
+							<default>0</default>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+						<border>5</border>
+						<object class="wxButton" name="startBut">
+							<font>
+								<size>10</size>
+								<family>decorative</family>
+								<style>normal</style>
+								<weight>normal</weight>
+								<underlined>0</underlined>
+								<face>Stencil</face>
+							</font>
+							<label>START</label>
+							<default>0</default>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</resource>
